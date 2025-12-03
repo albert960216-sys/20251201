@@ -29,11 +29,11 @@ let pushTicks = 0; // 記錄 push 動畫播放的累積幀數
 let projectiles = []; // 發射物陣列
 
 function preload() {
-  spriteSheet = loadImage('../ryu/stop1/stop1.png');
-  walkSheet = loadImage('../ryu/walk/walk.png');
-  jumpSheet = loadImage('../ryu/jump/jump.png');
-  pushSheet = loadImage('../ryu/push/push.png');
-  projectileSheet = loadImage('../ryu/push/push--.png');
+  spriteSheet = loadImage('ryu/stop1/stop1.png');
+  walkSheet = loadImage('ryu/walk/walk.png');
+  jumpSheet = loadImage('ryu/jump/jump.png');
+  pushSheet = loadImage('ryu/push/push.png');
+  projectileSheet = loadImage('ryu/push/push--.png');
 }
 
 function setup() {
